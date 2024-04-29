@@ -1,18 +1,25 @@
-Blog Objective:
-Create an api for our front end blog.
-
-Requirements:
-    - able to login
-    - create an account
-    
     Pages
-        - HomePage
-            - display our published items
+        -Login Page
+            - Create new user
+            - Login existing user
 
-        - ProfilePage
-            - add blog
-            - edit blog
-            - delete blog
+        - HomePage
+            - Create New Board
+            - Join another Board 
+            - View Board
+            - Randomize color / add profile picture
+
+        - BoardPage
+            - add Task
+            - edit Task 
+            - delete Task ?????
+
+        - TaskView
+            - Edit Priority
+            - Edit Category
+            - Add Comment
+            - Edit Comment
+            - Delete Comment
 
 
 Controllers / folder
@@ -21,15 +28,25 @@ Controllers / folder
         - Login user / endpoint  | R
         - Update user / endpoint | U
         - Delete user / endpoint | D
-    - BlogController / file
-        - Create Blog Item / endpoint
-        - Delete Blog Item / endpoint
-        - Update Blog Item / endpoint
-        - Get Blog Item / endpoint
 
-        - Get Blogs by UserID
-        - Get Blogs by Tags
-        - Get Blogs By Category
+    - BoardController / file
+        - Create Board Item / endpoint
+       ****? - Delete Board Item / endpoint
+        - Update Board Item / endpoint
+        - Get Board Item / endpoint
+
+        - Get Boards by UserID (on login, get all the boards on a proile)
+        - Get Boards by Tags (Tags meaning the unique code attach to it)
+
+    - TaskController
+        - Create Task 
+        - Update Task
+
+    - CommentController ?
+        - Add Comment ? 
+        - Edit Comment ? 
+        
+        
 
 
 Services /folder
@@ -41,15 +58,14 @@ Services /folder
         - Update user / function | U
         - Delete user / function | D
         - GetUserByUsername / function
-    - BlogService / file
-        - Create Blog Item / function
-        - Delete Blog Item / function
-        - Update Blog Item / function
-        - Get Blog Item / function
+    - BoardService / file
+        - Create Board/ function
+        - Delete Board / function
+        - Update Board / function
+        - Get Board / function
 
-        - Get Blogs by UserID
-        - Get Blogs by Tags
-        - Get Blogs By Category
+        - Get Boards by UserID
+        - Get Board by Tag
 
     - PasswordService / file
         - Hash Password
@@ -63,18 +79,22 @@ Models / folder
         string Salt
         string Hash
 
-    - BlogItemModel (model for each blog item)
+    - BoardItemModel (model for each Board item)
         int ID
-        int UserID
-        string PublishedName
-        string Date
-        string Title
+        int[] UserID (array of all user ids that are in the board)
+        string Name
+        string InviteCode
+        (bool IsPublished
+        bool IsDeleted (soft delete, still in database.  can be recoverable))
+
+    -   TaskItemModel (model for each task)
+        int ID
+        string Assignee
         string Description
-        string Image
-        string Tags
-        string Categories
-        bool IsPublished
-        bool IsDeleted (soft delete, still in database.  can be recoverable)
+        string Status (to-do, in prog ...)
+        int Priority
+
+
 
 
         - DTOs / folder
@@ -89,5 +109,5 @@ Models / folder
                 - string Salt
                 - string Hash
 
-username: BlogLogin
-password: password123!@#
+username: 
+password: 
