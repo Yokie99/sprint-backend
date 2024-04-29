@@ -75,20 +75,22 @@ Services /folder
 Models / folder
     - UserModel / file
         int ID
+        string Color
         string Username
         string Salt
         string Hash
 
     - BoardItemModel (model for each Board item)
         int ID
-        int[] UserID (array of all user ids that are in the board)
+        int UserID 
         string Name
         string InviteCode
         (bool IsPublished
-        bool IsDeleted (soft delete, still in database.  can be recoverable))
+        bool IsDeleted (soft delete, still in database. can be recoverable))
 
     -   TaskItemModel (model for each task)
         int ID
+        string DateCreated
         string Assignee
         string Description
         string Status (to-do, in prog ...)
