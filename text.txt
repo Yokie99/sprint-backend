@@ -111,5 +111,5 @@ Models / folder
                 - string Salt
                 - string Hash
 
-username: 
-password: 
+username: username
+password: Password!
