@@ -9,17 +9,9 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lvl3Week3Day2_BlogBackend
 build_property.RootNamespace = Lvl3Week3Day2_BlogBackend
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\
+build_property.ProjectDir = C:\Users\Yokie's PC\Documents\CodeStack\Level 4\Projects\sprint-backend\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend
-=======
-build_property.ProjectDir = D:\CodeStack\Level 4\sprint-backend\sprint-backend\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CodeStack\Level 4\sprint-backend\sprint-backend
->>>>>>> 27fa5b6a219a29e61a7969318bbb068399ec2c86
+build_property.MSBuildProjectDirectory = C:\Users\Yokie's PC\Documents\CodeStack\Level 4\Projects\sprint-backend
 build_property._RazorSourceGeneratorDebug = 
