@@ -41,8 +41,11 @@ namespace Lvl3Week3Day2_BlogBackend.Services
 
                 newUser.ID = UserToAdd.ID;
                 newUser.Username = UserToAdd.Username;
+                newUser.Color = "white";
                 newUser.Salt = hashPassword.Salt;
                 newUser.Hash = hashPassword.Hash;
+
+                _context.Add(newUser);
 
                 // save into database
                 result = _context.SaveChanges() != 0;

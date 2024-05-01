@@ -95,7 +95,7 @@ Models / folder
         string DateCreated (FE)
         string Title
         string Description (Input from FE)
-        int Status (to-do, in prog ...) (assigned and changable from FE)
+        string Category (to-do, in prog ...) (assigned and changable from FE)
         int Priority (assignened and changable from FE)
 
 
