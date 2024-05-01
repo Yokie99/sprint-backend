@@ -3921,19 +3921,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yokie's PC\\.nuget\\packages\\": {}
+    "C:\\Users\\acera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+      "projectUniqueName": "C:\\Users\\acera\\Documents\\CodeStack\\sprintweek\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
       "projectName": "Lvl3Week3Day2-BlogBackend",
-      "projectPath": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
-      "packagesPath": "C:\\Users\\Yokie's PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\obj\\",
+      "projectPath": "C:\\Users\\acera\\Documents\\CodeStack\\sprintweek\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+      "packagesPath": "C:\\Users\\acera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\acera\\Documents\\CodeStack\\sprintweek\\sprint-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yokie's PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\acera\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -4005,16 +4005,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
