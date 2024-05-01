@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<BoardService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<PasswordService>();
+builder.Services.AddScoped<TaskService>();
 
 var connectionString = builder.Configuration.GetConnectionString("MyBlogString");
 builder.Services.AddDbContext<DataContext>(Options => Options.UseSqlServer(connectionString));

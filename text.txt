@@ -81,20 +81,22 @@ Models / folder
         string Hash
 
     - BoardItemModel (model for each Board item)
-        int ID
-        int UserID 
-        string Name
-        string InviteCode
+        int ID (automatically incramented)
+        int UserID (assign from logged in user)
+        string Name (Inputfield in FE)
+        string InviteCode (Randomally generated from FE)
         (bool IsPublished
         bool IsDeleted (soft delete, still in database. can be recoverable))
 
     -   TaskItemModel (model for each task)
-        int ID
-        string DateCreated
-        string Assignee
-        string Description
-        string Status (to-do, in prog ...)
-        int Priority
+        int ID (automatically incramented)
+        int BoardID (assigned from FE based on current board, getBoardID)
+        int UserID (assigne from logged in user)
+        string DateCreated (FE)
+        string Title
+        string Description (Input from FE)
+        int Status (to-do, in prog ...) (assigned and changable from FE)
+        int Priority (assignened and changable from FE)
 
 
 
