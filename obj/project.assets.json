@@ -3921,19 +3921,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acera\\.nuget\\packages\\": {}
+    "C:\\Users\\EYHST\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acera\\Documents\\CodeStack\\sprintweek\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+      "projectUniqueName": "D:\\CodeStack\\Level 4\\sprint-backend\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
       "projectName": "Lvl3Week3Day2-BlogBackend",
-      "projectPath": "C:\\Users\\acera\\Documents\\CodeStack\\sprintweek\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
-      "packagesPath": "C:\\Users\\acera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acera\\Documents\\CodeStack\\sprintweek\\sprint-backend\\obj\\",
+      "projectPath": "D:\\CodeStack\\Level 4\\sprint-backend\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+      "packagesPath": "C:\\Users\\EYHST\\.nuget\\packages\\",
+      "outputPath": "D:\\CodeStack\\Level 4\\sprint-backend\\sprint-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\acera\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\EYHST\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
