@@ -41,10 +41,13 @@ namespace Lvl3Week3Day2_BlogBackend.Services
 
                 newUser.ID = UserToAdd.ID;
                 newUser.Username = UserToAdd.Username;
+                newUser.Color = "white";
                 newUser.Salt = hashPassword.Salt;
                 newUser.Hash = hashPassword.Hash;
                 newUser.Color = "white";
                 newUser.DateJoined = DateTimeOffset.UtcNow;
+
+                _context.Add(newUser);
 
                 _context.Add(newUser);
 

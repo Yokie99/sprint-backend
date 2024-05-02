@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -11,7 +12,7 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "BoardInfo",
+                name: "BoardItemModel",
                 columns: table => new
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
@@ -24,7 +25,7 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BoardInfo", x => x.ID);
+                    table.PrimaryKey("PK_BoardItemModel", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -33,10 +34,11 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Color = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Color = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Username = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Salt = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Hash = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Hash = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DateJoined = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -48,7 +50,7 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "BoardInfo");
+                name: "BoardItemModel");
 
             migrationBuilder.DropTable(
                 name: "UserInfo");
