@@ -310,3 +310,8 @@ D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\appsettings.D
 D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\appsettings.json
 D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\Lvl3Week3Day2-BlogBackend.deps.json
 D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\Lvl3Week3Day2-BlogBackend.runtimeconfig.json
+C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\web.config
+C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\appsettings.Development.json
+C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\appsettings.json
+C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\Lvl3Week3Day2-BlogBackend.deps.json
+C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\Lvl3Week3Day2-BlogBackend.runtimeconfig.json
