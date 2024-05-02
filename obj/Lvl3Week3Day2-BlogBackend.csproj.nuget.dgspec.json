@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj": {}
+    "D:\\Code\\TaskTracker-Sprint\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj": {
+    "D:\\Code\\TaskTracker-Sprint\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+        "projectUniqueName": "D:\\Code\\TaskTracker-Sprint\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
         "projectName": "Lvl3Week3Day2-BlogBackend",
-        "projectPath": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+        "projectPath": "D:\\Code\\TaskTracker-Sprint\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
         "packagesPath": "C:\\Users\\Yokie's PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\obj\\",
+        "outputPath": "D:\\Code\\TaskTracker-Sprint\\sprint-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yokie's PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
