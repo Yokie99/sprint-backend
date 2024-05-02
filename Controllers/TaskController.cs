@@ -26,5 +26,12 @@ namespace Lvl3Week3Day2_TaskBackend.Controllers
         public bool AddTaskItem(TaskItemModel task){
             return _data.AddTaskItem(task);
         }
+
+        [HttpGet]
+        [Route("GetTaskById/{id}")]
+        public TaskItemModel GetTaskById(int id){
+            return _data.GetTaskById(id);
+        }
     }
+    
 }

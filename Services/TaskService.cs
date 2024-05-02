@@ -23,6 +23,10 @@ namespace Lvl3Week3Day2_BlogBackend.Services
             return _context.SaveChanges() != 0;
         }
 
+        public TaskItemModel GetTaskById(int id){
+            return _context.TaskInfo.SingleOrDefault(user => user.ID == id);
+        }
+
         
     }
 }

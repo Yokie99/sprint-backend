@@ -43,6 +43,12 @@ namespace Lvl3Week3Day2_BlogBackend.Controllers
         public bool UpdateBoard(BoardItemModel boardUpdate){
             return _data.UpdateBoard(boardUpdate);
         }
+
+        [HttpGet]
+        [Route("GetBoardById/{id}")]
+        public BoardItemModel GetUserById(int id){
+            return _data.GetBoardById(id);
+        }
     }
 
 

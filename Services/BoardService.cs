@@ -37,5 +37,9 @@ namespace Lvl3Week3Day2_BlogBackend.Services
             _context.Update<BoardItemModel>(boardUpdate);
             return _context.SaveChanges() != 0;
         }
+
+        public BoardItemModel GetBoardById(int id){
+            return _context.BoardInfo.SingleOrDefault(user => user.ID == id);
+        }
     }
 }
