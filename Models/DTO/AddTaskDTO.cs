@@ -9,7 +9,7 @@ namespace Lvl3Week3Day2_BlogBackend.Models.DTO
     {
         public int BoardID { get; set; }
         public int Status { get; set; }
-        public int Priority { get; set; }
+        public string Category { get; set; }
         string DateCreated { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
