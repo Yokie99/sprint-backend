@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5k9Jfz2ou4nx6TdqakI6SFPsxvziWNkyjz0EqSpsG5FCNEpRPDahedNl1OXyr7tyM3hpCjgsAFeRW0NxAdim/A==",
+  "dgSpecHash": "mdnrqf5ISlknRv5arPtXcWTaJP+r3+oGvvc3jEmJBYYX+iHPeHRFVdRapCmeTNSn5BsGI2ExAaM42ZiOotulGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+  "projectFilePath": "D:\\Code\\TaskTracker-Sprint\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yokie's PC\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Yokie's PC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
