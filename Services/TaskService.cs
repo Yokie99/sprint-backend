@@ -17,7 +17,7 @@ namespace Lvl3Week3Day2_BlogBackend.Services
             _context = context;
         }
 
-        public bool AddTaskItem(AddTaskDTO newTaskItem)
+        public bool AddTaskItem(TaskItemModel newTaskItem)
         {
             _context.Add(newTaskItem);
             return _context.SaveChanges() != 0;

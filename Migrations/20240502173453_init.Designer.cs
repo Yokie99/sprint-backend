@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lvl3Week3Day2_BlogBackend.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240501175258_init")]
+    [Migration("20240502173453_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -50,7 +50,7 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("BoardInfo");
+                    b.ToTable("BoardItemModel");
                 });
 
             modelBuilder.Entity("Lvl3Week3Day2_BlogBackend.Models.UserModel", b =>
@@ -62,8 +62,10 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("Color")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTimeOffset?>("DateJoined")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Hash")
                         .HasColumnType("nvarchar(max)");
