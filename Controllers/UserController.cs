@@ -54,5 +54,11 @@ namespace Lvl3Week3Day2_BlogBackend.Controllers
         public bool DeleteUser(string userToDelete){
             return _data.DeleteUser(userToDelete);
         }
+
+        [HttpGet]
+        [Route("GetUserById/{id}")]
+        public UserModel GetUserById(int id){
+            return _data.GetUserById(id);
+        }
     }
 }
