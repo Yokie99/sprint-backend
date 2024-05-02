@@ -305,11 +305,6 @@ D:\Code\TaskTracker-Sprint\sprint-backend\obj\Debug\net7.0\refint\Lvl3Week3Day2-
 D:\Code\TaskTracker-Sprint\sprint-backend\obj\Debug\net7.0\Lvl3Week3Day2-BlogBackend.pdb
 D:\Code\TaskTracker-Sprint\sprint-backend\obj\Debug\net7.0\Lvl3Week3Day2-BlogBackend.genruntimeconfig.cache
 D:\Code\TaskTracker-Sprint\sprint-backend\obj\Debug\net7.0\ref\Lvl3Week3Day2-BlogBackend.dll
-D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\web.config
-D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\appsettings.Development.json
-D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\appsettings.json
-D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\Lvl3Week3Day2-BlogBackend.deps.json
-D:\Code\TaskTracker-Sprint\sprint-backend\bin\Debug\net7.0\publish\Lvl3Week3Day2-BlogBackend.runtimeconfig.json
 C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\web.config
 C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\appsettings.Development.json
 C:\Users\acera\Documents\CodeStack\sprintweek\sprint-backend\bin\Debug\net7.0\publish\appsettings.json
