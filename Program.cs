@@ -36,6 +36,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("BlogPolicy");
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
