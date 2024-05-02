@@ -3921,19 +3921,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EYHST\\.nuget\\packages\\": {}
+    "C:\\Users\\Yokie's PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodeStack\\Level 4\\sprint-backend\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
       "projectName": "Lvl3Week3Day2-BlogBackend",
-      "projectPath": "D:\\CodeStack\\Level 4\\sprint-backend\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
-      "packagesPath": "C:\\Users\\EYHST\\.nuget\\packages\\",
-      "outputPath": "D:\\CodeStack\\Level 4\\sprint-backend\\sprint-backend\\obj\\",
+      "projectPath": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\Lvl3Week3Day2-BlogBackend.csproj",
+      "packagesPath": "C:\\Users\\Yokie's PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yokie's PC\\Documents\\CodeStack\\Level 4\\Projects\\sprint-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\EYHST\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Yokie's PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
