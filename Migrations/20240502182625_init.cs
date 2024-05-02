@@ -12,7 +12,7 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "BoardItemModel",
+                name: "BoardInfo",
                 columns: table => new
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
@@ -25,7 +25,40 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BoardItemModel", x => x.ID);
+                    table.PrimaryKey("PK_BoardInfo", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "MemberInfo",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    BoardId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MemberInfo", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "TaskInfo",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserID = table.Column<int>(type: "int", nullable: false),
+                    BoardID = table.Column<int>(type: "int", nullable: false),
+                    DateCreated = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Category = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Priority = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TaskInfo", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -50,7 +83,13 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "BoardItemModel");
+                name: "BoardInfo");
+
+            migrationBuilder.DropTable(
+                name: "MemberInfo");
+
+            migrationBuilder.DropTable(
+                name: "TaskInfo");
 
             migrationBuilder.DropTable(
                 name: "UserInfo");

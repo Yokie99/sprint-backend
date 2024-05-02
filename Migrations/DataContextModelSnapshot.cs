@@ -47,7 +47,60 @@ namespace Lvl3Week3Day2_BlogBackend.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("BoardItemModel");
+                    b.ToTable("BoardInfo");
+                });
+
+            modelBuilder.Entity("Lvl3Week3Day2_BlogBackend.Models.MemberModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BoardId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MemberInfo");
+                });
+
+            modelBuilder.Entity("Lvl3Week3Day2_BlogBackend.Models.TaskItemModel", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("BoardID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Category")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DateCreated")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Priority")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("TaskInfo");
                 });
 
             modelBuilder.Entity("Lvl3Week3Day2_BlogBackend.Models.UserModel", b =>
